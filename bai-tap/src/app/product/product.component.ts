@@ -48,7 +48,7 @@ export class ProductComponent implements OnInit {
         }
       }
     } else {
-      const _id = Math.floor(Math.random() * 101 + 1);
+      const _id = Math.floor(Math.random() * 101) + 1;
       data.id = _id;
       data.price = Number(data.price);
       this.products.push(data);
